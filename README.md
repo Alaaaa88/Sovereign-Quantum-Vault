@@ -19,6 +19,8 @@ SV-T breaks the computational bottleneck of Lattice-based cryptography by bypass
 | **ISA Acceleration** | Scalar / AVX2 | **Vectorized AVX-512F** |
 | **Throughput** | Baseline | **16x Parallel Ops/Cycle** |
 
+
+
 ## 🛠️ Architectural Engineering & Hardening
 - **SIMD Vectorization:** Direct integration of Intel/AMD **AVX-512 Intrinsics** for massive parallelization of NTT (Number Theoretic Transform) kernels.
 - **Hardware-Level Constant-Time:** Eliminates branching and data-dependent timing variances to neutralize **Side-Channel Timing Attacks**.
@@ -35,3 +37,17 @@ g++ -O3 -mavx512f -std=c++20 SovereignVault_Titan_V3.cpp -o SovereignVault
 
 # Execute the Benchmark
 ./SovereignVault
+
+
+[System] Alaa's Titan Core V3.1 Initializing...
+----------------------------------------------------
+ALAA-TITAN-CORE RESULTS:
+[+] Hardware Path : AVX-512 (Vectorized)
+[+] Target Latency: 0.582 microseconds
+[+] Real Latency  : 0.119 us 
+[+] Security Check: Constant-Time Path Verified.
+----------------------------------------------------
+[Status] Execution SECURE. National Infrastructure Protected.
+
+
+
