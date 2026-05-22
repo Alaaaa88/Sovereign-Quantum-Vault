@@ -2,7 +2,7 @@
 
 A low-level C++ inference engine designed for performance-critical environments. This project explores the intersection of hardware architecture and machine learning, focusing on SIMD optimization and cache-aware memory management.
 
-##  Key Engineering Pillars
+## Key Engineering Pillars
 - **SIMD Dispatching**: Runtime detection and optimization using AVX2/AVX512 instruction sets.
 - **Cache-Aware Design**: Optimized memory layout (Row-Major) and 64-byte alignment to minimize cache misses.
 - **Hardware-Level Inference**: Zero-dependency linear layer implementation, built from first principles.

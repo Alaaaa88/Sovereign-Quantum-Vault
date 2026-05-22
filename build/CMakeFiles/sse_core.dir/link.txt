@@ -1,2 +1,0 @@
-/usr/bin/ar qc libsse_core.a CMakeFiles/sse_core.dir/sovereign_engine.cpp.o CMakeFiles/sse_core.dir/kernels_scalar.cpp.o
-/usr/bin/ranlib libsse_core.a

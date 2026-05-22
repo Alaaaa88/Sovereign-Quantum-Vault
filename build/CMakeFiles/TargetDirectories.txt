@@ -1,4 +1,0 @@
-/workspaces/SovereignVault_Titan.cpp/build/CMakeFiles/sse_core.dir
-/workspaces/SovereignVault_Titan.cpp/build/CMakeFiles/ai_inference.dir
-/workspaces/SovereignVault_Titan.cpp/build/CMakeFiles/edit_cache.dir
-/workspaces/SovereignVault_Titan.cpp/build/CMakeFiles/rebuild_cache.dir
